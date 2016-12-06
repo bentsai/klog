@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 TIMESTAMP=$(date +"%Y-%d-%m %R")
 POST="- \`$TIMESTAMP\` | $@"
