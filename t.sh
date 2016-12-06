@@ -2,4 +2,4 @@
 
 TIMESTAMP=$(date +"%Y-%d-%m %R")
 POST="- \`$TIMESTAMP\` | $@"
-echo $POST
+echo $POST >> ~/Dropbox/Notes/Log.md
