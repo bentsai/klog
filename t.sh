@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 
-echo "Hello world!"
-
-echo $@
+TIMESTAMP=$(date +"%Y-%d-%m %R")
+POST="- \`$TIMESTAMP\` | $@"
+echo $POST
