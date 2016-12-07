@@ -10,8 +10,8 @@ I do appreciate that it renders nicely in [Markdown](http://daringfireball.net/p
 ### Writing
 
 ```
-./k⏎
-<Note here>⏎
+./k↩️
+<Note here>↩️
 ```
 
 This will append a line to `~/Dropbox/Notes/Log.md` in the format:
