@@ -1,10 +1,15 @@
 # klog
-A minimal script for keeping timestamped notes
+
+A minimal script for keeping timestamped notes. The name "klog" is short for "work log." The format is inspired by
+Brett Terpstra's [`doing`](https://github.com/ttscoff/doing/) tool, which outputs in
+[Taskpaper](https://www.taskpaper.com/) format. My use is slightly different, and I don't need the Taskpaper-ness, but
+I do appreciate that it renders nicely in [Markdown](http://daringfireball.net/projects/markdown/).
 
 ## Usage
 
 ```
-./t.sh <Note here>
+./k<CR>
+<Note here><CR>
 ```
 
 This will append a line to `~/Dropbox/Notes/Log.md` in the format:
@@ -16,5 +21,5 @@ This will append a line to `~/Dropbox/Notes/Log.md` in the format:
 For example,
 
 ```
-- `2016-06-12 17:42` | Hello world! This is a really simply logger.
+- `2016-06-12 17:42:02` | Hello world! This is a really simply logger.
 ```
