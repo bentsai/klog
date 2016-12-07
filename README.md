@@ -42,5 +42,5 @@ grep `date +%F` $KLOG_FILE
 #### See yesterday's log
 
 ```
-grep `date -r $((\`date +%s\` - 86400)) '+%F'` ~$KLOG_FILE
+grep `date -r $((\`date +%s\` - 86400)) '+%F'` $KLOG_FILE
 ```
