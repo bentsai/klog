@@ -1,6 +1,6 @@
 #!/bin/bash
 
 read POST
-TIMESTAMP=$(date +"%Y-%d-%m %H:%M:%S")
+TIMESTAMP=$(date +"%F %T")
 RENDERED="- \`$TIMESTAMP\` | $POST"
 echo $RENDERED >> ~/Dropbox/Notes/Log.md

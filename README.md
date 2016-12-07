@@ -7,6 +7,8 @@ I do appreciate that it renders nicely in [Markdown](http://daringfireball.net/p
 
 ## Usage
 
+### Writing
+
 ```
 ./k<CR>
 <Note here><CR>
@@ -22,4 +24,12 @@ For example,
 
 ```
 - `2016-06-12 17:42:02` | Hello world! This is a really simply logger.
+```
+
+### Reading
+
+#### See today's log
+
+```
+grep `date +%F` ~/Dropbox/Notes/Log.md
 ```
