@@ -33,3 +33,9 @@ For example,
 ```
 grep `date +%F` ~/Dropbox/Notes/Log.md
 ```
+
+#### See yesterday's log
+
+```
+grep `date -r $((\`date +%s\` - 86400)) '+%F'` ~/Dropbox/Notes/Log.md
+```
